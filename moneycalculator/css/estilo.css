@@ -1,0 +1,83 @@
+body{
+    background-color: lightseagreen
+  }
+  img#caixa{
+          padding-right: 5cm;
+          float: right
+  }
+  
+  p#p1{
+      padding-top: 0cm;
+      padding-left: 10cm;
+      font-size: 0.8cm;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  p#p2{
+      padding-top: 0cm;
+      padding-left: 10cm;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  h1#h1{
+      padding-top: 0cm;
+      padding-left: 10cm;
+  }
+  h2#h2{
+    padding-top: 0cm;
+    padding-left: 10cm;
+    font-size: 0.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  button#btExibirNotas{
+      margin-top: 0cm;
+      margin-left: 10cm;
+  }
+  img#dinheiro{
+    float: left;
+    padding-left: 2cm;
+  }
+  h3#outNotasCem{
+    padding-top: 0cm;
+    padding-left: 10cm;
+  }
+  h3#outNotasCinquenta{
+    padding-top: 0cm;
+    padding-left: 10cm;
+  }
+  h3#outNotasVinte{
+    padding-top: 0cm;
+    padding-left: 10cm;
+  }
+  h3#outNotasDez{
+    padding-top: 0cm;
+    padding-left: 10cm;
+  }
+  h3#outNotasCinco{
+    padding-top: 0cm;
+    padding-left: 10cm;
+  }
+  h3#outNotasDois{
+    padding-top: 0cm;
+    padding-left: 10cm;
+  }
+  h3#outMoedasUm{
+    padding-top: 0cm;
+    padding-left: 10cm;
+  }
+  h3#outMoedasCinquenta{
+    padding-top: 0cm;
+    padding-left: 10cm;
+  }
+  h3#outMoedasVinteCinco{
+    padding-top: 0cm;
+    padding-left: 10cm;
+  }
+  h3#outMoedasDez{
+    padding-top: 0cm;
+    padding-left: 10cm;
+  }
+  h3#outMoedasCinco{
+    padding-top: 0cm;
+    padding-left: 10cm;
+  }
+
+

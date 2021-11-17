@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Money calculator</title>
+</head>
+<body>
+    <img src="img/caixa.eletronico.png" alt="Caixa Eletrônico" id="caixa">
+    <img src="img/dinheiro.png" alt="Dinheiro" id="dinheiro">
+    <h1 id="h1">Calculadora de dinheiro</h1>
+    <h2 id="h2">Digite abaixo o valor (em reais) do seu saque e descubra qual é a opção que se gasta menos notas<br>Exemplo : 188.90</h2>
+
+    <!-- CAIXA PARA COLOCAR O VALOR -->
+    <p id="p1">
+        Valor do Saque (R$): <input type="text" id="txtValor">
+    </p>
+
+    <p id="p2">
+        <b>Observação: Caso for colocar números decimais<br>troque a "," (vírgula) por um "." (ponto final).</b>
+    </p>
+
+    <!--  BOTÃO PARA EXIBIR NOTAS -->
+    <p><button id="btExibirNotas">Exibir notas</button></p>
+
+    <!-- IDENTIFICAÇÃO DAS LINHAS ONDE FICARÃO OS RESULTADOS -->
+    <h3 id="outNotasCem"></h3>
+    <h3 id="outNotasCinquenta"></h3>
+    <h3 id="outNotasVinte"></h3>
+    <h3 id="outNotasDez"></h3>
+    <h3 id="outNotasCinco"></h3>
+    <h3 id="outNotasDois"></h3>
+    <h3 id="outMoedasUm"></h3>
+    <h3 id="outMoedasCinquenta"></h3>
+    <h3 id="outMoedasVinteCinco"></h3>
+    <h3 id="outMoedasDez"></h3>
+    <h3 id="outMoedasCinco"></h3>
+
+
+    <!-- ATRIBUIÇÃO DA TAG SCRIPT AO CÓDIGO EM JS -->
+    <script src="js/processadorValor.js"></script>
+    
+</body>
+</html>
